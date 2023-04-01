@@ -1,0 +1,142 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+nav {
+  height: 69px;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 1px seashell;
+}
+
+.logo {
+  margin-left: 10px;
+}
+
+.logo img {
+  height: 50px;
+  opacity: .6;
+}
+
+.navigation > ul {
+  list-style-type: none;
+  text-decoration: underline;
+  display: flex;
+}
+
+.navigation ul li {
+  margin-right: 15px;
+}
+
+header {
+  background: no-repeat url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*9b8ows*_ga*MDM5NDI5NDU3NC4xNjc4MjIzNjA4*_ga_3LRZM6TM9L*MTY4MDAxMTgyMC4yMC4xLjE2ODAwMTE5MjEuNTYuMC4w);
+  height: 700px;
+  width: 1200px;
+  opacity: 0.5;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission {
+  background-color: black;
+  width: 1200px;
+  height: 100px;
+}
+
+.mission h2 {
+  margin: 10px auto 10px;
+}
+
+.mission h4 {
+  margin-top: 0;
+}
+
+.teas {
+  opacity: .8;
+}
+.teas > h2 h4 {
+  margin-bottom: 0;
+}
+
+.teas > h4 {
+  margin-top: 10px;
+}
+
+.teas-pic{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.teas-pic div {
+  margin-right: 20px;
+}
+
+.teas-pic div img {
+  height: 200px;
+  width: 300px;
+}
+
+.teas-pic div h4 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.locations {
+  background: no-repeat url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*140e5a9*_ga*MDM5NDI5NDU3NC4xNjc4MjIzNjA4*_ga_3LRZM6TM9L*MTY4MDAxMTgyMC4yMC4xLjE2ODAwMTMwNDAuNTguMC4w');
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+
+.loc h2 {
+  margin-bottom: 15px;
+}
+
+.loc div div{
+  background-color: black;
+  height: 250px;
+  width: 300px;
+  margin-right: 40px;
+}
+
+.loc > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.info {
+  height: 200px;
+  opacity: .7;
+}
+
+footer {
+  text-align: left;
+  opacity: .7;
+  margin-left: 20px;
+  color: seashell;
+}
+
+
+
+
+
+
+
+
